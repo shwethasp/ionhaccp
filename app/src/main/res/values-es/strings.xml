@@ -1,0 +1,84 @@
+<resources>
+    <!--<string name="app_name">ionhaccp</string>-->
+    <string name="username_hints">Nombre de usuario</string>
+    <string name="password_hints">Contraseña</string>
+    <string name="loginbtn_hints">Iniciar sesión</string>
+    <string name="internet_connection_msg">Comprueba tu conexión a Internet.</string>
+    <string name="Enter_mobile_number">Ingrese su número móvil registrado</string>
+    <string name="send_message">Enviar mensaje</string>
+
+    <string name="digit_mobilenumber">Número móvil de 10 dígitos</string>
+    <string name="err_msg_username">Ingrese su nombre de usuario</string>
+    <string name="err_msg_email">Ingrese su ID de correo electrónico</string>
+    <string name="err_msg_password">Introduce la contraseña</string>
+    <string name="forgot_password">Se te olvidó tu contraseña?</string>
+    <string name="sign_in">Registrarse</string>
+    <string name="enter_valid_emailid_password">Ingresa una ID de correo electrónico y una contraseña válidas.</string>
+    <string name="enter_your_emailid">Ingrese su Email-ID registrado</string>
+    <string name="send">Enviar</string>
+
+    <string name="forgot_pass_error">Introduzca la ID de correo electrónico correcta.</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="str_username"></string>
+    <string name="str_password"></string>
+
+
+    <!--Settings Screen-->
+    <string name="change_language">Seleccione el idioma</string>
+    <string name="change_password">Cambia la contraseña</string>
+    <string name="push_notification">Notificación de inserción</string>
+    <string name="icelsius_status">iCelsicus:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+    <string name="old_pass">Contraseña anterior</string>
+    <string name="new_pass">nueva contraseña</string>
+    <string name="conform_pass">Confirmar contraseña</string>
+    <string name="cancle">Cancelar</string>
+    <string name="update">Actualizar</string>
+
+    <string name="password_updated">Contraseña actualiza</string>
+    <string name="wrong_password">Antigua contraseña es incorrecta</string>
+    <string name="passwords_do_not_match">Nueva contraseña y Confirmar contraseña no coinciden</string>
+    <string name="valid_passwords">Introducir contraseñas válidas</string>
+
+    <string name="dashbord">Tablero</string>
+    <string name="settings">Ajustes</string>
+    <string name="about_us">Sobre nosotros</string>
+    <string name="terms_conditions">Términos y Condiciones</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="help">Ayuda</string>
+    <string name="signout">Desconectar</string>
+
+    <!--Language Screen-->
+    <string-array name="languages">
+        <item>English</item>
+        <item>Español</item>
+        <item>Franch</item>
+        <item>हिंदी</item>
+    </string-array>
+    <string-array name="languages_code">
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>hi</item>
+    </string-array>
+    <string-array name="wifi_arrays">
+        <item>None</item>
+        <item>WPA Personal</item>
+    </string-array>
+
+    <string name="default_language_code">en</string>
+    <string name="press_bach_exit">Presione nuevamente para salir</string>
+    <string name="icelsius_mode">Modo</string>
+    <string name="change">Cambio</string>
+    <string name="select_one_sensor">Seleccione un sensor:</string>
+    <string name="no_sensors_found">No se han encontrado sensores iCelsius</string>
+    <string name="selsect_ssid">Seleccionar SSID:</string>
+</resources>

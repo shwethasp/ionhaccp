@@ -1,0 +1,1 @@
+include ':app', ':generic_sensor_library', ':GenericSensorLib'

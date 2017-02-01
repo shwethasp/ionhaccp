@@ -1,0 +1,85 @@
+<resources>
+    <!--<string name="app_name">ionhaccp</string>-->
+    <string name="username_hints">उपयोगकर्ता नाम</string>
+    <string name="password_hints">पासवर्ड</string>
+    <string name="loginbtn_hints">लॉग इन करें</string>
+    <string name="internet_connection_msg">अपना इंटरनेट संपर्क जांचे।</string>
+    <string name="Enter_mobile_number">अपने पंजीकृत मोबाइल नंबर दर्ज</string>
+    <string name="send_message">मेसेज भेजें</string>
+
+    <string name="digit_mobilenumber">10 अंकों का मोबाइल नंबर</string>
+    <string name="err_msg_username">अपने उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="err_msg_email">अपना ईमेल आईडी दर्ज करें</string>
+    <string name="err_msg_password">पासवर्ड दर्ज करे</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="sign_in">साइन इन करें</string>
+    <string name="enter_valid_emailid_password">वैध ईमेल आईडी और पासवर्ड दर्ज करें</string>
+    <string name="enter_your_emailid">अपने पंजीकृत ईमेल आईडी दर्ज करें</string>
+    <string name="send">भेजना</string>
+
+    <string name="forgot_pass_error">सही ईमेल आईडी दर्ज करें।</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">सेटिंग्स</string>
+
+    <string name="str_username"></string>
+    <string name="str_password"></string>
+
+    <!--Settings Screen-->
+    <string name="change_language">भाषा चुनिए</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="push_notification">अधिसूचना करें</string>
+    <string name="icelsius_status">iCelsicus:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- <string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+    <string name="old_pass">पुराना पासवर्ड</string>
+    <string name="new_pass">नया पासवर्ड</string>
+    <string name="conform_pass">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="cancle">रद्द करना</string>
+    <string name="update">अद्यतन</string>
+
+    <string name="password_updated">पासवर्ड अपडेट किया गया</string>
+    <string name="wrong_password">पुराना पासवर्ड गलत है</string>
+    <string name="passwords_do_not_match">नया पासवर्ड और मेल नहीं खाते पासवर्ड की पुष्टि</string>
+    <string name="valid_passwords">वैध पासवर्ड दर्ज</string>
+
+    <string name="dashbord">डैशबोर्ड</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="terms_conditions">नियम और शर्तें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="help">मदद</string>
+    <string name="signout">साइन आउट</string>
+
+
+    <!--Language Screen-->
+    <string-array name="languages">
+        <item>English</item>
+        <item>Español</item>
+        <item>Franch</item>
+        <item>हिंदी</item>
+    </string-array>
+    <string-array name="languages_code">
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>hi</item>
+    </string-array>
+    <string-array name="wifi_arrays">
+        <item>None</item>
+        <item>WPA Personal</item>
+    </string-array>
+    <string name="default_language_code">en</string>
+    <string name="press_bach_exit">प्रेस फिर से वापस बाहर निकलें करने के लिए</string>
+    <string name="icelsius_mode">मोड</string>
+    <string name="change">परिवर्तन</string>
+    <string name="select_one_sensor">एक संवेदक का चयन करें:</string>
+    <string name="no_sensors_found">कोई iCelsius सेंसर पाया</string>
+    <string name="selsect_ssid">SSID का चयन:</string>
+
+
+</resources>

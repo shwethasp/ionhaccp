@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        card_view:cardBackgroundColor="@color/white_color"
+        card_view:cardElevation="4dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/about_text"
+                    android:background="#e6e9e9"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/application_versionname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+
+                        android:text="Version"
+                        android:textColor="#000"
+                        android:textSize="@dimen/textsize" />
+
+                    <TextView
+                        android:id="@+id/version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="hjh"
+                        android:textSize="@dimen/textsize" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/about_text"
+                    android:layout_marginTop="20dp"
+                    android:background="#e6e9e9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/application_revisiontext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Revision"
+                        android:textColor="#000"
+                        android:textSize="@dimen/textsize" />
+
+                    <TextView
+                        android:id="@+id/revision_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text=""
+                        android:textSize="@dimen/textsize" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/about_text"
+                    android:layout_marginTop="20dp"
+                    android:background="#e6e9e9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/application_productnametext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+
+                        android:text="Product Name"
+                        android:textColor="#000"
+                        android:textSize="@dimen/textsize" />
+
+                    <TextView
+                        android:id="@+id/productname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Every organization involved in food-related business needs to ensure that the food they handle, store, display or sell is safe and maintains compliance with the necessary standards like Safe Quality Food (SQF) initiative, Hazard Analysis and Critical Control Points (HACCP), and ISO 22000. We have often seen that the process of managing compliance lacks transparency, is prone to manual errors, and frequently results in risky situations.\nEnsuring compliance requires comprehensive checks and documentation to confirm that the process runs efficiently. "
+                        android:textSize="@dimen/textsize" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/about_text"
+                    android:layout_marginTop="20dp"
+                    android:background="#e6e9e9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Company_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Company Name"
+                        android:textColor="#000"
+                        android:textSize="@dimen/textsize" />
+
+                    <TextView
+                        android:id="@+id/company_name_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Vmoksa Technologies"
+                        android:textSize="@dimen/textsize" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

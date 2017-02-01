@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/change_password_layout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="0dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/change_password"
+                android:textSize="@dimen/textsize"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#c0c0c0"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/change_language_layout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/change_password_layout"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/change_language"
+                android:textSize="@dimen/textsize"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#c0c0c0"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notification_layout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/change_language_layout"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/push_notification"
+                android:textSize="@dimen/textsize"/>
+
+            <Switch
+                android:id="@+id/push_notification_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#c0c0c0"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/icelsius_layout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/notification_layout"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/icelsuis_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/icelsius_status"
+                android:textSize="@dimen/textsize"/>
+
+            <TextView
+                android:id="@+id/sensorStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/icelsuis_text"
+                android:layout_toRightOf="@+id/icelsuis_text"
+                android:textSize="@dimen/textsize"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                android:layout_toLeftOf="@+id/icesius_mode_image"
+                android:layout_toStartOf="@+id/icesius_mode_image"
+                android:text="@string/icelsius_mode"/>
+
+            <ImageView
+                android:id="@+id/icesius_mode_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/wifi"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/change_infra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:text="@string/change"
+                android:textSize="12sp"
+                />
+            <!--android:minHeight="0dp"
+            android:padding="2dp"-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#c0c0c0"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

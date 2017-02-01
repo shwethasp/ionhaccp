@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="This terms and conditions, constitute a binding agreement between Vmoksha Technologies and you, and are accepted by you each time you access our products, services or websites. Vmoksha Technologies may revise these Terms and Conditions ('Terms') any time by posting the revised version to this page. To review the most current terms, you should visit this page periodically as they are binding on you."
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="NO WARRANTIES"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="We do not engage in any activity or collect personal information from the visitors who anonymously visit our website. We may use your IP address to enhance our services in the means of diagnosing server problems, administering the website, gathering demographic information, and refining our site by knowing the features what people use most often."
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="LIMITATION OF LIABILITY"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="In no event shall we be responsible for any damages, including, without limitation, incidental, special, indirect, consequential or punitive damages under a contract or any other liability occurring in connection with any failure of performance, interruption, omission, error, defect or delay in operation, line system failure, computer virus, loss of data related to this website or any third party website, contents of any website, even if it is aware of the possibility of such damages."
+
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="USE OF WEBSITE"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="We may establish links between this website and other third party websites. We have no control over any such other websites operated by third parties, the contents therein or services / products they offer. The existence of any such links shall not constitute an endorsement, representation or warranty by us of such websites, the contents of the websites, the products or services of the websites or the operators of the websites. We disclaim responsibility for the customer information practices and privacy policies of third-party internet sites hyperlinked to our sites."
+
+                    android:textSize="@dimen/textsize" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="MODIFICATIONS"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="We may amend our website contents and the terms, at any time, without prior notice. You are responsible for periodical reviewing these contents and terms. Your continued use of this website and services following any modifications shall constitute your consent to the acceptance of such modifications or revisions."
+
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="WAIVER"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="No waiver by our company of any right under or term or provision of these terms will be considered a waiver of any other right, term or provision of these terms at that time; or a waiver of that or any other right, term or provision of these terms at any other time."
+
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="APPLICABLE LAW AND VENUE"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Your use of this website and these terms and conditions shall be governed by and construed in accordance with the laws of the New Jersey; applicable to agreements made and to be wholly performed within the New Jersey (even if your use is outside of the New Jersey), without resort to its conflict of law provisions. You acknowledge that any action at law or in equity resulting out of or relating to these Terms or this website shall be filed only in the state and federal courts located in the New Jersey and you hereby irrevocably and unconditionally agree and submit to the exclusive jurisdiction of such courts."
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="SERVICE CONTACT"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="You may contact us by sending an email at info@ionhaccp.io."
+                    android:textSize="@dimen/textsize" />
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+</RelativeLayout>

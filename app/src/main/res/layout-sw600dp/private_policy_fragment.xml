@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Vmoksha Technologies and its affiliated companies are firmly committed to protecting your privacy. This Privacy Policy sets forth our practices regarding the collection, handling, and disclosure of information that you may provide through the “Product” (ionhaccp) and the “Website” (www.iconhaccp.io). By using our Product and Website ('Services'), you explicitly agree that you read, understand, and accept our Privacy Policy."
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="OVERVIEW"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="We do not engage in any activity or collect personal information from the visitors who anonymously visit our website. We may use your IP address to enhance our services in the means of diagnosing server problems, administering the website, gathering demographic information, and refining our site by knowing the features what people use most often.
+
+We use the personal information of our customer or supplier to respond to or provide with information or services that they have requested or additional information, which we believe may be of interest to them. We may also use the information for any legitimate business purposes, as permitted by applicable laws.
+
+The personal information collected and stored from our customers or suppliers may be transferred to a future purchaser of our company or a part of it as per the applicable legal requirements.
+
+We do not share, trade, rent, or sell your personal data to third parties for direct marketing purpose unless you amiably consent to such disclosure."
+
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="REGISTRATION"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="By using our website or product, you consent to use your information to allow you to create an account, and profile for you with the information you provide us. We are committed not to share this information with third parties unless otherwise provided herein."
+
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="COOKIES"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="When a user visits our website, we may collect certain data by automated means such as cookies and web beacons. Cookies are a small piece of data sent to your browser from our website and stored on your device. The website uses cookies to log your usage, devices, pages accessed, time spent, IP address, and general browser statistics. We use this data to identify demographic trends to provide services tailored to your interest. Our policy also includes not retrieving your personal information about you from your device."
+
+                    android:textSize="@dimen/textsize" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="LINKS TO OTHER SITES"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Our website may contain links to other websites. We are not responsible for the contents of such websites and their privacy practices. We do not take any responsibility for the third party opinions expressed on or through our website."
+
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="DELETE / DEACTIVATE"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="When a user visits our website, we may collect certain data by automated means such as cookies and web beacons. Cookies are a small piece of data sent to your browser from our website and stored on your device. The website uses cookies to log your usage, devices, pages accessed, time spent, IP address, and general browser statistics. We use this data to identify demographic trends to provide services tailored to your interest. Our policy also includes not retrieving your personal information about you from your device."
+
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="CHANGES TO THIS POLICY"
+                    android:textColor="#000"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="We reserve the right to update or modify this Privacy Policy at any time. If we modify our privacy statement, we will post the revised statement here and may update you by other means such as posting a notice on our homepage or sending an email."
+                    android:layout_marginBottom="20dp"
+                    android:textSize="@dimen/textsize" />
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "116437757873",
+    "firebase_url": "https://ionhaccp.firebaseio.com",
+    "project_id": "ionhaccp",
+    "storage_bucket": "ionhaccp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116437757873:android:053e8d1b153e629d",
+        "android_client_info": {
+          "package_name": "com.ionhaccp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116437757873-ie0eln9s0op9i0715n7q0grjber8e1e7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "116437757873-ce7tfafkioipn8r7e5rv4dojg0202ern.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzPxR0eaHNhrJGSxmPudngraNKCdcRYqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-90891428-3"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
